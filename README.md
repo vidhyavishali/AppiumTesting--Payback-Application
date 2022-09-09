@@ -32,7 +32,7 @@ Scenario : User is in logged in state. He searches for Specific partners(Rewe/Ar
 5. Hooks are used for executing pre-and post requisites. It is placed inside steps package.
 6. Screen package holds locators of required elements for each screen. This is based on Page object Model Structure for easy maintenance. 
 8. Logging is done using apache log4j.
-9. The capabilities are mentioned as property file under resources.
+9. The capabilities are mentioned as property file under config folder.
 10. Cucumber reports are generated under reports folder. They are also published over the specified URL after every run.
 
 
