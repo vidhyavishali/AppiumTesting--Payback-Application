@@ -17,6 +17,9 @@ public class Hooks {
 	private DriverFactory dFactory = new DriverFactory();
 	private WebDriver driver;
 
+	/**
+	 * Starts the driver session and assigns it to session manager's instance
+	 */
 	@Before
 	public void setUp(Scenario scenario) {
 

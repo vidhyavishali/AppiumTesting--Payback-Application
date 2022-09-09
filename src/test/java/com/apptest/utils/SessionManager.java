@@ -9,6 +9,9 @@ public class SessionManager {
 	private static SessionManager instance;
 	private static Logger logger = LogManager.getLogger(SessionManager.class.getName());
 
+	/**
+	 * provides a static instance to hold the driver
+	 */
 	public static SessionManager getInstance() {
 
 		if (instance == null) {

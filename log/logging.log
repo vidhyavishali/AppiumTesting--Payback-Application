@@ -333,3 +333,132 @@
 2022-09-09 10:41:05 INFO  AppTestBase:44 - The Element  is clicked
 2022-09-09 10:41:05 INFO  AppTestBase:26 - AppTestBase is initialized
 2022-09-09 10:41:08 INFO  Hooks:30 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 14:05:46 INFO  Hooks:23 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 14:05:46 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:17:19 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:17:19 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:17:34 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:17:37 INFO  AppScreenBase:47 - The Element Coupons is clicked
+2022-09-09 15:17:37 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:17:39 INFO  AppScreenBase:47 - The Element Filter is clicked
+2022-09-09 15:17:39 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:17:40 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:19:56 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:19:56 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:20:09 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:20:12 INFO  AppScreenBase:47 - The Element Coupons is clicked
+2022-09-09 15:20:12 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:20:14 INFO  AppScreenBase:47 - The Element Filter is clicked
+2022-09-09 15:20:14 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:20:14 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:29:22 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:29:22 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:29:36 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:29:39 INFO  AppScreenBase:47 - The Element Coupons is clicked
+2022-09-09 15:29:39 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:29:41 INFO  AppScreenBase:47 - The Element Filter is clicked
+2022-09-09 15:29:41 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:29:41 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:30:37 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:30:37 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:30:50 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:30:52 INFO  AppScreenBase:47 - The Element Coupons is clicked
+2022-09-09 15:30:52 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:30:54 INFO  AppScreenBase:47 - The Element Filter is clicked
+2022-09-09 15:30:54 INFO  AppScreenBase:29 - AppTestBase is initialized
+2022-09-09 15:30:54 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:32:28 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:32:28 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:32:44 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 15:32:46 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 15:32:47 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 15:33:19 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:34:22 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:34:22 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:34:37 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 15:34:39 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 15:34:40 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 15:34:42 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:38:41 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:38:42 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:38:57 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 15:38:59 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 15:38:59 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 15:38:59 INFO  AppScreenBase:27 - 3 th partner is selected
+2022-09-09 15:39:31 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:40:46 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:40:46 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:41:02 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 15:41:05 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 15:41:06 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 15:41:06 INFO  AppScreenBase:27 - 4 th partner is selected
+2022-09-09 15:41:08 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:43:00 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:43:00 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:43:00 INFO  DriverFactory:29 - Creating driver instance
+2022-09-09 15:43:15 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 15:43:18 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 15:43:19 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 15:43:19 INFO  AppScreenBase:27 - 4 th partner is selected
+2022-09-09 15:43:51 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:46:55 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:46:55 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:46:55 INFO  DriverFactory:29 - Creating driver instance
+2022-09-09 15:47:11 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 15:47:13 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 15:47:14 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 15:47:14 INFO  AppScreenBase:27 - 4 th partner is selected
+2022-09-09 15:47:46 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 15:49:02 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 15:49:02 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 15:49:02 INFO  DriverFactory:29 - Creating driver instance
+2022-09-09 15:49:18 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 15:49:22 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 15:49:23 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 15:49:23 INFO  AppScreenBase:27 - 4 th partner is selected
+2022-09-09 15:49:55 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 16:48:08 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 16:48:08 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 16:48:08 INFO  DriverFactory:29 - Creating driver instance
+2022-09-09 16:48:26 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 16:48:28 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 16:48:28 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 16:48:28 INFO  AppScreenBase:27 - 4 th partner is selected
+2022-09-09 16:49:00 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 17:01:37 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 17:01:37 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 17:01:37 INFO  DriverFactory:29 - Creating driver instance
+2022-09-09 17:02:28 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 17:04:14 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 17:04:14 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 17:04:14 INFO  DriverFactory:29 - Creating driver instance
+2022-09-09 17:04:35 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 17:04:38 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 17:04:39 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 17:04:39 INFO  AppScreenBase:27 - 4 th partner is selected
+2022-09-09 17:05:11 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 17:08:15 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 17:08:15 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 17:08:15 INFO  DriverFactory:29 - Creating driver instance
+2022-09-09 17:08:34 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 17:08:37 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 17:08:38 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 17:08:38 INFO  AppScreenBase:27 - 4 th partner is selected
+2022-09-09 17:09:10 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon
+2022-09-09 17:11:20 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 17:11:20 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 17:11:20 INFO  DriverFactory:29 - Creating driver instance
+2022-09-09 17:11:39 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 17:11:41 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 17:11:42 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 17:11:42 INFO  AppScreenBase:27 - 4 th partner is selected
+2022-09-09 17:14:36 INFO  Hooks:26 - Running Scenario : Logged in User Filters and activates an active coupon
+2022-09-09 17:14:36 INFO  DriverFactory:21 - Running tests on: Android
+2022-09-09 17:14:36 INFO  DriverFactory:29 - Creating driver instance
+2022-09-09 17:14:53 INFO  AppScreenBase:46 - The Element Coupons is clicked
+2022-09-09 17:14:56 INFO  AppScreenBase:46 - The Element Filter is clicked
+2022-09-09 17:14:57 INFO  AppScreenBase:46 - The Element  is clicked
+2022-09-09 17:14:57 INFO  AppScreenBase:27 - 4 th partner is selected
+2022-09-09 17:14:59 INFO  AppScreenBase:46 - The Element Jetzt aktivieren is clicked
+2022-09-09 17:14:59 INFO  AppScreenBase:38 - 1 th coupon is activated
+2022-09-09 17:15:01 INFO  Hooks:33 - Scenario completed: Logged in User Filters and activates an active coupon

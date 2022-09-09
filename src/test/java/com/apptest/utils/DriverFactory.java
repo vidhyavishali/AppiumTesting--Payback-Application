@@ -14,6 +14,7 @@ public class DriverFactory {
 	private  DesiredCapabilities cap = new DesiredCapabilities();
 	private final static Logger logger = Logger.getLogger(DriverFactory.class);
 
+	/** Creates a driver instance with properties from config/AppConfig.properties*/
 	public  WebDriver createDriverInstance() {
 
 		if (driver == null) {
@@ -26,7 +27,7 @@ public class DriverFactory {
 			cap.setCapability("appPackage", ReadAppConfig.getProperty("appPackage"));
 			cap.setCapability("appActivity", ReadAppConfig.getProperty("appActivity"));
 			cap.setCapability("noReset", ReadAppConfig.getProperty("noReset"));
-			System.out.println("Creating driver instance");
+			logger.info("Creating driver instance");
 
 			try {
 				URL url = new URL("http://127.0.0.1:4723/wd/hub");

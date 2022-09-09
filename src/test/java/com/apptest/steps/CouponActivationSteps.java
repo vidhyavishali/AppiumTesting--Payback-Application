@@ -22,7 +22,8 @@ public class CouponActivationSteps {
 	CouponScreen couponScr;
 	FilterScreen filterScr;
 	CouponsListScreen couponListScr;
-	boolean couponsAvailablity;
+	boolean couponsAvailability;
+	int numberOfCoupons = 0;
 
 	@Given("^Navigate to coupon section$")
 	public void navigate_to_coupon_section() throws Throwable {
@@ -35,29 +36,35 @@ public class CouponActivationSteps {
 		if (partnerIndex != null) {
 			couponListScr = couponScr.clickOnFilter().selectNthPreferredPartner(partnerIndex);
 		} else
-			logger.error("Specified Partner is not available in our partners list");
+			logger.error("Specified Partner: " + partner + " with partner index: " + partnerIndex
+					+ " is not available in our partners list");
 	}
 
 	@And("^the coupon list is not empty$")
 	public void the_coupon_list_is_not_empty() throws Throwable {
 		{
-			int numberOfCoupons = couponListScr.getNumberOfCouponsYetToGetActivated();
+			numberOfCoupons = couponListScr.getNumberOfCouponsYetToGetActivated();
 			if (numberOfCoupons > 0)
-				couponsAvailablity = true;
+				couponsAvailability = true;
+			else
+				logger.error("Coupons from partner not available");
 		}
 
 	}
 
-	@And("^click on first coupon activation$")
-	public void click_on_first_coupon_activation() throws Throwable {
-		if(couponsAvailablity)
-		couponListScr.activateNthCoupon(1);
+	@And("^click on coupon number (\\d+) activation$")
+	public void click_on_nth_coupon_activation(int n) throws Throwable {
+		if (couponsAvailability && numberOfCoupons >= n)
+			couponListScr.activateNthCoupon(n);
+		else
+			logger.error("Required Coupon " + n + " is not available. Number of available coupons :" + numberOfCoupons);
 	}
 
 	@Then("^the coupon is activated$")
 	public void the_coupon_is_activated() throws Throwable {
 		boolean couponActivationStatus = couponListScr.isNthCouponActivated(1);
 		assertTrue(couponActivationStatus);
+
 	}
 
 }

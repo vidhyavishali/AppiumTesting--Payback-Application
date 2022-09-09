@@ -5,7 +5,10 @@ import org.openqa.selenium.WebElement;
 import com.apptest.utils.LOCATORS;
 
 public class CouponsListScreen extends AppScreenBase {
-
+	/**
+	 * Locates the Tab "Nicht Aktiviert" and retrieves the number of coupons from
+	 * its text.
+	 */
 	public int getNumberOfCouponsYetToGetActivated() {
 
 		String notActivatedTabXpath = "//android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.TextView";
@@ -16,21 +19,27 @@ public class CouponsListScreen extends AppScreenBase {
 		return Integer.parseInt(noOfCouponsRaw.substring(indexOf1 + 1, indexOf2));
 	}
 
+	/**
+	 * Locates the specified nth coupon's activation button and clicks them.
+	 */
 	public CouponsListScreen activateNthCoupon(int n) {
-		if (n < getNumberOfCouponsYetToGetActivated())
 
-			System.out.println("activating");
 		String activateButtonXpath = "//android.widget.FrameLayout[" + n
-				+ "]/android.widget.FrameLayout/androidx.cardview.widget.CardView/android.view.ViewGroup/android.widget.Button";
+				+ "]/android.widget.FrameLayout[@resource-id = 'de.payback.client.android:id/coupon']//android.widget.Button[@resource-id='de.payback.client.android:id/not_activated_button']";
 		WebElement activateButton = getWebElement(LOCATORS.XPATH, activateButtonXpath);
-//		clickElement(activateButton);
+		clickElement(activateButton);
+		logger.info(n + " th coupon is activated");
+
 		return this;
 	}
 
+	/**
+	 * Locates the nth coupon and checks if its activated icon is enabled.
+	 */
 	public boolean isNthCouponActivated(int n) {
 
 		String activatedIconXpath = "//android.widget.FrameLayout[" + n
-				+ "]/android.widget.FrameLayout/androidx.cardview.widget.CardView/android.view.ViewGroup/android.widget.ImageView[@resource-id = 'de.payback.client.android:id/info_icon']";
+				+ "]/android.widget.FrameLayout[@resource-id = 'de.payback.client.android:id/coupon']//android.widget.ImageView[@resource-id = 'de.payback.client.android:id/activated_icon']";
 		WebElement activatedIcon = getWebElement(LOCATORS.XPATH, activatedIconXpath);
 		return activatedIcon.isEnabled();
 
