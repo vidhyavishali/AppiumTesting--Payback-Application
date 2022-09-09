@@ -9,14 +9,19 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(plugin = { "pretty", "html:target/cucumber-report.html" }, features = {
 		"src/test/resources" }, glue = { "com.apptest.steps" })*/
 
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin = { "pretty", "html:target/cucumber-report.html" },
-        glue = "com/apptest/steps",
+		plugin = { "pretty", "html:reports/Cucumber-report_.html" },
+        glue = {"com/apptest/steps"},
         features = "src/test/resources/features",
         publish = true,
         monochrome = true
 )
-public class TestRunner {
 
+
+
+public class CucumberRunner {
+
+	
 }

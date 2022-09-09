@@ -10,11 +10,11 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class DriverFactory {
 
-	private static WebDriver driver;
-	private static final DesiredCapabilities cap = new DesiredCapabilities();
+	private  WebDriver driver;
+	private  DesiredCapabilities cap = new DesiredCapabilities();
 	private final static Logger logger = Logger.getLogger(DriverFactory.class);
 
-	public static WebDriver createDriverInstance() {
+	public  WebDriver createDriverInstance() {
 
 		if (driver == null) {
 			String platform = ReadAppConfig.getProperty("platformName");
@@ -25,7 +25,8 @@ public class DriverFactory {
 			cap.setCapability("platformVersion", ReadAppConfig.getProperty("platformVersion"));
 			cap.setCapability("appPackage", ReadAppConfig.getProperty("appPackage"));
 			cap.setCapability("appActivity", ReadAppConfig.getProperty("appActivity"));
-			cap.setCapability("noReset", true);
+			cap.setCapability("noReset", ReadAppConfig.getProperty("noReset"));
+			System.out.println("Creating driver instance");
 
 			try {
 				URL url = new URL("http://127.0.0.1:4723/wd/hub");
@@ -35,12 +36,11 @@ public class DriverFactory {
 				exception.printStackTrace();
 			}
 		}
-
 		return driver;
 
 	}
 
-	public static void stopDriver() {
+	public  void stopDriver() {
 		if (driver != null) {
 			driver.quit();
 			driver = null;
