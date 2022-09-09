@@ -36,7 +36,7 @@ Scenario : User is in logged in state. He searches for Specific partners(Rewe/Ar
 10. Cucumber reports are generated under reports folder. They are also published over the specified URL after every run.
 
 
-Assumptions :
+<b><h3>Assumptions :</b></h3>
 
 1. The app works directly on the android instrument connected either through WIFI or data cable. If working on the emulator, the emulator details are specified in the capabilities for "app".
 
